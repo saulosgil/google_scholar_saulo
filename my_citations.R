@@ -15,8 +15,8 @@ cites <- scholar::get_citation_history(perfil$id) # número de citações por an
 dplyr::glimpse(cites)
 
 # plot ----------------------------------------------------------------------------------------
-
-cites |>
+g1 <-
+  cites |>
   ggplot2::ggplot(mapping = ggplot2::aes(x = year,
                                          y = cites)) +
   ggplot2::geom_line(linetype  = 6, col = "red") +
@@ -34,3 +34,7 @@ cites |>
                      vjust = -.8) +
   ggplot2::theme(text = ggplot2::element_text(size = 15))
 
+g1
+
+# save
+ggplot2::ggsave("citation.png")
