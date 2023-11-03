@@ -6,9 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of google_scholar_saulo repository was verifign my number of
+The goal of google_scholar_saulo repository was verifying my number of
 citations in the Google Scholar.
 
-This analysis was performed in September 11, 2023.
+This analysis was performed on September 11, 2023.
 
 ![](citation.png)<!-- -->
